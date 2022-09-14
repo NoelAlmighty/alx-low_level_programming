@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -17,7 +17,7 @@ int main(void)
 		c++;
 	}
 
-	char c = 'A';
+	c = 'A';
 
 	while (c <='Z')
 	{
