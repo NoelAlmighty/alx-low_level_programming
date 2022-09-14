@@ -2,7 +2,8 @@
 
 /**
  * main - main block
- * Description: prints all single digit numbers of base 10 starting from 0, followed by a new line.
+ * Description: prints all single digit numbers of base 10
+ * starting from 0, followed by a new line.
  * Return: 0
  */
 
@@ -12,7 +13,7 @@ int main(void)
 
 	while (i < 10)
 	{
-		putchar(i);
+		putchar(48+i);
 		i++;
 	}
 	putchar('\n');
