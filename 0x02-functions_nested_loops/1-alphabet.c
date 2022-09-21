@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - entry point
  * print_alphabet - print alphabet 10 times
+ *
  * Return: void
  */
 
