@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * print_alphabet_x10 - print_alphabet 10 times
+ * print_alphabet - print alphabet 10 times
  * Return: void
  */
 
