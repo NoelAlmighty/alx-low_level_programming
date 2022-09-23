@@ -5,7 +5,6 @@
  * 10 times.
  * Return: no return.
  */
-
 void more_numbers(void)
 {
 	int i, ch;
@@ -16,7 +15,7 @@ void more_numbers(void)
 		{
 			if (ch >= 10)
 				_putchar((ch / 10) + 48);
-				_putchar((ch % 10) + 48);
+			_putchar((ch % 10) + 48);
 		}
 		_putchar('\n');
 	}
