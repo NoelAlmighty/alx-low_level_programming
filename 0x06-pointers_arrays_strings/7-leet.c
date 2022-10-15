@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * leet - encodes a string into 1337
  * @s: input string.
@@ -7,7 +6,6 @@
  */
 
 char *leet(char *s)
-
 {
 	int count = 0, i;
 	int low_letters[] = {97, 101, 111, 116, 108};
@@ -26,5 +24,6 @@ char *leet(char *s)
 		}
 		count++;
 	}
+
 	return (s);
 }
